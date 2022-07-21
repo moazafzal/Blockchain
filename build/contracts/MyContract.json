@@ -1,0 +1,106 @@
+{
+  "contractName": "MyContract",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.15+commit.e14f2714\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/MyContract.sol\":\"MyContract\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/MyContract.sol\":{\"keccak256\":\"0xe29a67b5973aa6a3ce48e0d1567624e460141d1f7d8c1fa82ba6d3e071a44927\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://098da155faa5dfb195e8f35727460fe665612c751faabef6ec632b24dd84718b\",\"dweb:/ipfs/QmZHNuTiS9em5SyRjCcXPWZGG1rrmmJzDdn4R3wBNEwByz\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea264697066735822122078a957dff337327ade46f302fc99c24579688bf12674a131cf31c1eca0319c8464736f6c634300080f0033",
+  "deployedBytecode": "0x6080604052600080fdfea264697066735822122078a957dff337327ade46f302fc99c24579688bf12674a131cf31c1eca0319c8464736f6c634300080f0033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "66:54:2:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "66:54:2:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\ncontract MyContract {\n  uint256 totalSupply ;\n  \n\n  \n}\n",
+  "sourcePath": "C:\\Users\\moaza\\contracts\\contracts\\MyContract.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/MyContract.sol",
+    "exportedSymbols": {
+      "MyContract": [
+        50
+      ]
+    },
+    "id": 51,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 47,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:2"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "MyContract",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 50,
+        "linearizedBaseContracts": [
+          50
+        ],
+        "name": "MyContract",
+        "nameLocation": "75:10:2",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 49,
+            "mutability": "mutable",
+            "name": "totalSupply",
+            "nameLocation": "98:11:2",
+            "nodeType": "VariableDeclaration",
+            "scope": 50,
+            "src": "90:19:2",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 48,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "90:7:2",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "visibility": "internal"
+          }
+        ],
+        "scope": 51,
+        "src": "66:54:2",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:89:2"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.15+commit.e14f2714.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.8",
+  "updatedAt": "2022-07-21T08:37:34.667Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
